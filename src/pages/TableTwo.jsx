@@ -66,6 +66,7 @@ const Table2 = ({
             Caste
           </label>
           <select
+            class="basic-slide"
             id="category"
             name="category"
             value={selectedCat}
@@ -100,7 +101,6 @@ const Table2 = ({
 
       {/* input end  */}
 
-
       {rank && <h3>College less than Rank : {rank}</h3>}
       <table
         // className="table"
@@ -115,7 +115,7 @@ const Table2 = ({
             ))}
           </tr>
         </thead>
-        
+
         <tbody>
           {items
             .filter((item) => {
@@ -148,7 +148,7 @@ const Table2 = ({
           <h3>College greater than Rank : {rank}</h3>
           <table
             // className="table"
-            class="styled-table"
+            class="styled-table bg-color"
           >
             <thead>
               <tr>

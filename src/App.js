@@ -161,7 +161,7 @@ const App = () => {
             role="button "
             onClick={handlePrint}
           >
-            Download as PDF
+            Print
           </button>
         </>
       )}

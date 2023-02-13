@@ -70,7 +70,8 @@
 
 .table_box {
   height: auto;
-  padding: 30px 40px;
+  padding: 30px 30px;
+  margin-right: 20px;
 }
 
 /* new table */
@@ -81,11 +82,15 @@
   font-size: 0.9em;
   font-family: sans-serif;
   min-width: 90vw;
-  box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.115);
+}
+
+.bg-color thead tr {
+  background-color: #fff6bd !important;
 }
 .styled-table thead tr {
-  background-color: #009879;
-  color: #ffffff;
+  background-color: #ceedc7;
+  color: #000000;
   text-align: left;
   border-radius: 10px !important;
 }
@@ -99,7 +104,7 @@
 }
 
 .styled-table tbody tr:nth-of-type(even) {
-  background-color: #f3f3f3;
+  background-color: #f3f3f376;
 }
 
 .styled-table tbody tr:last-of-type {
@@ -135,7 +140,7 @@ select {
   text-indent: 70px;
   transition: all 0.3s ease-in-out;
 }
-select option{
+select option {
   padding: 3px !important;
   border-bottom: 1px solid #377d6a !important;
 }
@@ -150,10 +155,40 @@ select option{
 }
 
 label {
-  background-color: #009879;
+  background-color: #ceedc7;
   padding: 6px 10px 10px 10px;
-  color: #fff;
+  color: #101010;
   border-top-left-radius: 3px;
   border-bottom-left-radius: 3px;
   font-size: 15px;
+}
+
+@media only screen and (max-width: 480px)  {
+
+.table_box {
+  height: auto;
+  padding: 25px 15px;
+  margin-right: 20px;
+}
+  .row{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between !important;
+  }
+  table {
+    max-width: 90vw;
+    overflow-x: auto;
+    display: block;
+  }
+  .print {
+  margin-top: 10px;
+  margin-left: 23%;
+  margin-bottom: 40px;
+}
+.basic-slide{
+  margin-top: 20px;
+}
+select{
+  width: 67% !important;
+}
 }
