@@ -1,21 +1,21 @@
 {
   "files": {
-    "main.css": "/react-seat-cutoff/static/css/main.7afa3110.css",
-    "main.js": "/react-seat-cutoff/static/js/main.3c550a9b.js",
+    "main.css": "/react-seat-cutoff/static/css/main.7f363841.css",
+    "main.js": "/react-seat-cutoff/static/js/main.6a2e2084.js",
     "static/js/498.d12fefe6.chunk.js": "/react-seat-cutoff/static/js/498.d12fefe6.chunk.js",
     "static/js/703.fb6a8f02.chunk.js": "/react-seat-cutoff/static/js/703.fb6a8f02.chunk.js",
     "static/js/168.f1d98ee3.chunk.js": "/react-seat-cutoff/static/js/168.f1d98ee3.chunk.js",
     "static/js/787.b1d22bcc.chunk.js": "/react-seat-cutoff/static/js/787.b1d22bcc.chunk.js",
     "index.html": "/react-seat-cutoff/index.html",
-    "main.7afa3110.css.map": "/react-seat-cutoff/static/css/main.7afa3110.css.map",
-    "main.3c550a9b.js.map": "/react-seat-cutoff/static/js/main.3c550a9b.js.map",
+    "main.7f363841.css.map": "/react-seat-cutoff/static/css/main.7f363841.css.map",
+    "main.6a2e2084.js.map": "/react-seat-cutoff/static/js/main.6a2e2084.js.map",
     "498.d12fefe6.chunk.js.map": "/react-seat-cutoff/static/js/498.d12fefe6.chunk.js.map",
     "703.fb6a8f02.chunk.js.map": "/react-seat-cutoff/static/js/703.fb6a8f02.chunk.js.map",
     "168.f1d98ee3.chunk.js.map": "/react-seat-cutoff/static/js/168.f1d98ee3.chunk.js.map",
     "787.b1d22bcc.chunk.js.map": "/react-seat-cutoff/static/js/787.b1d22bcc.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.7afa3110.css",
-    "static/js/main.3c550a9b.js"
+    "static/css/main.7f363841.css",
+    "static/js/main.6a2e2084.js"
   ]
 }
