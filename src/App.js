@@ -154,6 +154,7 @@ const App = () => {
               items={items}
               handleShift={handleShift}
             />
+            <div className="page-number"></div>
           </div>
           <button
             style={{ maxWidth: "200px" }}
