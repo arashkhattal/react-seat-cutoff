@@ -28,7 +28,7 @@ const Table2 = ({
             padding: "0px 25px",
           }}
         >
-          <h3>Jagruti Xerox & Online Center</h3>
+          <h3>Xerox & Online Center</h3>
         </div>
       </div>
       <div className="table_box">
